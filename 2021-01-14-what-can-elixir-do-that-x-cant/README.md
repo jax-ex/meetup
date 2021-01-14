@@ -1,20 +1,13 @@
-# What's Wrong With Elixir?
+# What can Elixir do that Go can't?
 
-January (9th) 2020 presentation presented to Jax.Ex meetup.
+January (14th) 2021 presentation presented to Jax.Ex meetup.
 
-The pupose of this talk is not to bash Elixir, which is still my prefered
-language, but to look at pure funtional design. This talk should generate a
-discussion around functional concepts and help us to deepen our knowledge.
+NOTE: Someone brought to my attention that this title sounds like a language flame war. The intentions of this talk are to only talk about Elixir, the problems it solves and the abstractions it gives.
 
+You can exchange Go in the title for any language, i.e. "What can Elixir do that Assembly can't?". Any Turing Complete language has been proven to solve any computational (logic) problem. Languages simply give us abstractions.
 
-## Installation
+-- Original --
 
-This project uses reveal-ck which is a ruby gem (library) used to create slides
-from markdown. Installation instructions can be found on the website.
+The title of this talk was a question asked by a co-worker. This talk will not focus on the differences between Go and Elixir or language X and Elixir but on what Elixir does that is different. We will focus on rediscovering what makes Elixir great and how it is different than anything else that exists. We will look at the inspirations for Elixir (Erlang, Clojure and Ruby) and see how Elixir tries to take the best parts of any ecosystem and apply them.
 
-https://jedcn.github.io/reveal-ck/installation/
-
-Because I preference `bundler` I have included a `Gemfile` you can use it for
-an alternative install.
-
-`$ bundle install`
+Since this will be the first meetup of the new year we will also spend some time talking about the direction of Jax.Ex for this year. Time to reflect and refocus.
