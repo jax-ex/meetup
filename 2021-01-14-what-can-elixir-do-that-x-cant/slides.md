@@ -11,6 +11,10 @@ what makes elixir different?
 
 This is not a talk slamming Go or any other language.
 
+```notes
+most developers today must be polyglots
+```
+
 ---
 
 # Elixir isn't Ruby
@@ -107,6 +111,8 @@ https://dashbit.co/blog/ten-years-ish-of-elixir
 
 ## High Availability
 
+soft real time
+
 ---
 
 How do you build a system that doesn't crash?
@@ -118,15 +124,6 @@ telephone machines that restart quickly
 
 ---
 
-Erlang arrived in 1986
-Multicore support was added in 2006
-
-```notes
-concurrecy was needed
-mulitcore was a side effect of the way isolated processes work
-```
-
----
 
 Make hundreds/thousands/millions of tiny machines (programs) that communicate with each other.
 
@@ -159,6 +156,16 @@ iex(3)> receive do
 ...(3)> end
 logging
 :ok
+```
+
+---
+
+Erlang arrived in 1986
+Multicore support was added in 2006
+
+```notes
+concurrecy was needed
+mulitcore was a side effect of the way isolated processes work
 ```
 
 ---
@@ -225,7 +232,6 @@ batteries included
 genserver
 supervisors
 genstate
-tasks
 ets
 nmesia
 
@@ -242,8 +248,6 @@ https://elixir-lang.org/getting-started/debugging.html
 ---
 
 optional type system
-
----
 
 ```
 defmodule LousyCalculator do
@@ -390,6 +394,10 @@ task runner
 
 ---
 
+umbrella apps
+
+---
+
 genstage
 https://blog.discord.com/how-discord-handles-push-request-bursts-of-over-a-million-per-minute-with-elixirs-genstage-8f899f0221b4
 https://github.com/elixir-lang/gen_stage
@@ -419,7 +427,24 @@ so much more...
 
 Jax.Ex this year
 
-* workshops
-* bookclub
+---
 
-https://zoom.us/j/91814615672?pwd=T0NoeDVoZDJGdHhBU2Fva2d2WVN2dz09
+## workshops
+
+rustler
+
+---
+
+## bookclub
+
+ocaml
+https://dev.realworldocaml.org/index.html
+
+liveview ($99)
+https://pragmaticstudio.com/phoenix-liveview
+
+
+---
+
+slides
+https://github.com/jax-ex/meetup
